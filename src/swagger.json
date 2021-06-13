@@ -1,11 +1,11 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Rent X Documentation",
-    "description":" is a rent API",
+    "title": "RentX Documentation",
+    "description":"this is a rent API",
     "version": "1.0.0",
     "contact": {
-      "email": "UmEmailAleatorio@dominio.com"
+      "email": "joey.felip11@gmail.com"
     }
   }, 
   "paths": {
