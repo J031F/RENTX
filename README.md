@@ -2,13 +2,11 @@
 
 **RF** 
 Deve ser possível cadastrar um novo carro.
-Deve ser Possível listar todas as categorias.
 
 **RN**
 Não deve ser possível cadastrar um carro uma placa já existente.
-Não deve ser possível alterar a placa de um carro já cadastrado.
-O carro deve ser cadsatrado, por padrão, como disponivel.
-O usuário responsável pelo cadastro deve ser um usuários administrador.
+O carro deve ser cadastrado, por padrão, como disponivel.
+* O usuário responsável pelo cadastro deve ser um usuários administrador.
 
 # Listagem de carros
 
