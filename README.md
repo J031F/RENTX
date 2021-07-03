@@ -6,7 +6,7 @@ Deve ser possível cadastrar um novo carro.
 **RN**
 Não deve ser possível cadastrar um carro uma placa já existente.
 O carro deve ser cadastrado, por padrão, como disponivel.
-* O usuário responsável pelo cadastro deve ser um usuários administrador.
+O usuário responsável pelo cadastro deve ser um usuários administrador.
 
 # Listagem de carros
 

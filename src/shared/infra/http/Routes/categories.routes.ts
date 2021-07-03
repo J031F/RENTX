@@ -3,7 +3,7 @@ import multer from "multer";
 
 import { CreateCategoryController } from "@modules/cars/UseCases/createCategory/CreateCategoryController";
 import { ImportCategoryController } from "@modules/cars/UseCases/ImportCategory/ImportCategoryController";
-import { ListCategoriesController } from "@modules/cars/UseCases/ListCategories/ListCategoriesController";
+import { ListCategoriesController } from "@modules/cars/UseCases/listCategories/ListCategoriesController";
 
 import { ensureAdmin } from "../middlewares/ensureAdmin";
 import { ensureAuthenticated } from "../middlewares/ensureAuthenticated";
