@@ -1,9 +1,9 @@
 import { ICreateRentalDTO } from "@modules/rentals/dto/ICreateRentalDTO";
 import { IRentalsRepository } from "@modules/rentals/repositories/IRentalRepository";
 
-import { Rental } from "../../entities/Rental";
+import { Rental } from "../../infra/typeorm/entities/Rental";
 
-class RentalRepositoryInMemory implements IRentalsRepository {
+class RentalsRepositoryInMemory implements IRentalsRepository {
   rentals: Rental[] = [];
 
   async create({
@@ -36,4 +36,4 @@ class RentalRepositoryInMemory implements IRentalsRepository {
     );
   }
 }
-export { RentalRepositoryInMemory };
+export { RentalsRepositoryInMemory };
