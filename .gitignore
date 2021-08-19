@@ -1,8 +1,9 @@
+.vscode
+.env
+tmp/*
+!tmp/.gitkeep
 node_modules
-yarn-error.log
-yarn-lock
 package-lock.josn
 coverage
-.env
-tmp/avatar
-tmp/cars
+dist
+ormconfig.json
