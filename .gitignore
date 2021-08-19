@@ -1,9 +1,9 @@
-.vscode
-.env
-tmp/*
-!tmp/.gitkeep
 node_modules
-package-lock.josn
+.vscode
+tmp/*
 coverage
+.env
+!tmp/.gitkeep
 dist
 ormconfig.json
+package-lock.json

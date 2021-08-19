@@ -1,10 +1,8 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
     "target": "es5",
-    "module": "commonjs", 
-    "rootDir": "./",                             
-    "strict": false,                             
-    "strictPropertyInitialization": false,       
+    "module": "commonjs",
+    "rootDir": "./",
     "baseUrl": "./src",
     "outDir": "./dist",
     "paths": {
@@ -13,13 +11,11 @@
       "@shared/*": ["shared/*"],
       "@errors/*": ["errors/*"],
       "@utils/*": ["utils/*"]
-    },                                 
+    },
     "esModuleInterop": true,
-
-    "experimentalDecorators": true,              
-    "emitDecoratorMetadata": true,               
-
-    "skipLibCheck": true,                          
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   }
